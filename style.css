@@ -324,6 +324,7 @@ footer {
   margin: 0.6rem;
 }
 
+
 /* Navbar code */
 
 /* Hero Section code */
@@ -545,12 +546,12 @@ input:focus {
     right: 3rem;
   }
 
-  .navLink {
-    display:flex;
-    flex-direction: column;
-    align-items: end;
-    /* justify-content:left; */
+  .navLink  {
+    /* display:flex; */
+    flex-direction:column;
     display: none;
+    align-items: end;
+    
   }
 
   #iconToggle:checked~.navLinkBox .navLink {
